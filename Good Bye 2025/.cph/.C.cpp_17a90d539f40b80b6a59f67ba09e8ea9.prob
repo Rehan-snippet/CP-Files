@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\CP Files\\C.cpp","tests":[{"id":1747946736880,"input":"6\n5 4\n4 3\n8 2\n1 1\n6 4\n12 4\n","output":"1 4 5 5\n4 4 4\n0 8\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\CP Files\\C.cpp","group":"local","local":true}

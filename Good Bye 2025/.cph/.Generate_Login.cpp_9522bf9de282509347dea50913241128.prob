@@ -1,0 +1,1 @@
+{"name":"Local: Generate_Login","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\CP Files\\Generate_Login.cpp","tests":[{"id":1750929873720,"input":"harry potter","output":"hap"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\CP Files\\Generate_Login.cpp","group":"local","local":true}

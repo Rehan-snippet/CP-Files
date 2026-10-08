@@ -1,0 +1,1 @@
+{"name":"Local: BG10D","url":"c:\\Users\\DELL\\OneDrive\\Desktop\\CP Files\\BG10D.cpp","tests":[{"id":1751949794701,"input":"4\n1 1\n2 2\n3 2\n4 3\n","output":"1 \n1 2 \n2 1 \n1 3 2 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\DELL\\OneDrive\\Desktop\\CP Files\\BG10D.cpp","group":"local","local":true}
