@@ -68,6 +68,7 @@ int main() {
         ll n,m;
         cin>>n>>m;
         vector<vl> adj(n+1);
+        vl visited(n+1);
 
         loop(i,m){
             ll u,v;
@@ -82,13 +83,32 @@ int main() {
                 f1=1;
                 break;
             }
-            if(adj[i].size()>1){
-                f2++;
-            }
         }
         if(f1) cout<<"Brain Melt\n";
-        else if(f2>n/m) cout<<"Many\n";
-        else cout<<2<<endl;
+        else if(n==2) cout<<2<<endl;
+        else{
+            ll node=1;
+            if(adj[node].size()==1) node= adj[node][0];
+            if(adj[node].size()==1) {
+                f2=1;
+            }
+            visited[node] =1;
+            for(auto x:adj[node]){
+                visited[x]=1;
+                if(adj[x].size()>1) {
+                    f2=1;
+                    break;
+                }
+            }
+            loop2(i,n) {
+                if(visited[i]==0) {
+                    f2=1;
+                    break;
+                }
+            }
+            if(f2) cout<<"Many\n";
+            else cout<<2<<endl;
+        }
           
     }
     
